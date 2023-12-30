@@ -1,0 +1,181 @@
+*{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar{
+
+  height:60px;
+  background-color: black;
+  color:white;
+  display: flex;
+  border:2px  solid red;
+  word-spacing: 50px;
+  justify-content: space-evenly;
+}
+
+.nav-logo{
+ width:100px;
+  height:50px;
+ border:1px solid transparent;
+  display: inline-flex;
+}
+
+.logo{
+ width:130px;
+  height:50px
+  
+}
+
+.logo:hover{
+  border: 1px solid white;
+ 
+}
+
+
+#glass{
+  height:40px;
+  background:#FFC72C;
+  width:45px;
+  display:flex;
+  font-size: 1.2rem;
+  justify-content: center;
+  text-align: center;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius:4px;
+ align-items: center;
+  
+  
+  
+}
+
+.nav-Search{
+  display:flex;
+  word-spacing: none;
+  width:580px;
+  height:40px;
+  border-radius: 4px;
+  margin-top:10px;
+  border: none;
+  outline:none;
+  
+}
+
+
+.nav-Search:hover{
+  border: 2px solid orange;
+}
+
+.search-select{
+  background-color: #f3f3f3;
+  text-align: center;
+  border-top-left-radius:4px;
+  border-bottom-left-radius:4px;
+  border:none;
+}
+
+.search-input{
+  width:500px;
+  border:none;
+}
+
+.nav-address{
+  
+  padding:5px;
+  margin-left: 30px;
+  flex-flow: row wrap;
+
+
+  
+ 
+}
+
+.nav-address:hover{
+  border: 1px solid white;
+}
+
+.sign{
+  border:1px solid transparent;
+  margin-top:10px;
+ 
+ 
+  
+  
+}
+
+.sign:hover {
+  border: 1px solid white;
+}
+
+
+
+.orders{
+  border:1px solid transparent;
+}
+
+.orders:hover {
+border: 1px solid white;
+  
+}
+
+.nav-cart i {
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add-sec{
+  font-size:1.0rem;
+  margin:0;
+}
+
+.add-icon{
+  display: flex;
+  align-items:center;
+}
+
+.orders{
+   font-size: 0.8rem;
+  word-wrap: .2rem;
+  word-spacing: 0%;
+  margin-top: 10px;
+}
+
+.nav-second{
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.nav-cart{
+  font-size:0.85rem ;
+  font-weight: 700;
+  margin-right: 10px;
+  flex-flow: row wrap;
+  border:1px solid transparent;
+}
+
+.nav-cart:hover{
+  border:1px solid white;
+}
+
+.panel-ops {
+  display: flex;
+  word-spacing: 20px;
+}
+
+.panel{
+  display: flex;
+  background:#222f3d;
+  color: white;
+  height:42px;
+  
+  font-size: 1rem;
+}
+
+.panel-ops p{
+  display: inline;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
